@@ -6,6 +6,7 @@ import bodyParser from "body-parser";
 import globalRouter from "./routers/globalRouter";
 import videoRouter from "./routers/videoRouter";
 import userRouter from "./routers/userRouter";
+import routes from "./routes";
 
 const app = express();
 
@@ -16,9 +17,9 @@ app.use(helmet());
 app.use(morgan("dev"));
 
 
-app.use("/",globalRouter)
-app.use("/video",videoRouter)
-app.use("/user",userRouter)
+app.use(routes.home,globalRouter)
+app.use(routes.videos,videoRouter)
+app.use(routes.users,userRouter)
 
 export default app;
 
