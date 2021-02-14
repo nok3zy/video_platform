@@ -6,6 +6,6 @@
 > helmet. the middleware that help secure in express app by setting various HTTP header.
 > morgan. the middleware that say information requested. loggin
 > Express. 
-> Pug. 
-> cookie-parser. req_object
-> body-parser. req_object
+> Pug.  view engine
+> cookie-parser. gooood req_object
+> body-parser. gooood dreq_object
