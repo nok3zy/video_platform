@@ -9,3 +9,4 @@
 > Pug.  view engine
 > cookie-parser. gooood req_object
 > body-parser. gooood dreq_object
+> dotenv. hiding something private.( port, url, etc)
