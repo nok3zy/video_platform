@@ -10,4 +10,7 @@
 > cookie-parser. gooood req_object   
 > body-parser. gooood dreq_object   
 > dotenv. hiding something private.( port, url, etc)   
-> webpack   
+> webpack   . scss to css . somethins like that.
+> passport . authentication.
+> express_session . make cookie more personal.
+> connect-mongo . store session in mongo
