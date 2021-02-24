@@ -8,6 +8,7 @@ import session from "express-session";
 
 import mongoose from "mongoose";
 
+import apiRouter from "./routers/apiRouter";
 import globalRouter from "./routers/globalRouter";
 import videoRouter from "./routers/videoRouter";
 import userRouter from "./routers/userRouter";
@@ -18,6 +19,8 @@ import "./passport";
 const app = express();
 
 const MongoStore = require("connect-mongo").default;
+
+
 
 app.use("/upload", express.static("upload"));
 app.use("/static", express.static("static"));
@@ -45,6 +48,8 @@ app.use(localsMiddleware)
 app.use(routes.home,globalRouter)
 app.use(routes.videos,videoRouter)
 app.use(routes.users,userRouter)
+app.use(routes.api, apiRouter);
+
 
 export default app;
 

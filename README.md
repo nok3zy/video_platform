@@ -13,4 +13,5 @@
 > webpack   . scss to css . somethins like that.
 > passport . authentication.
 > express_session . make cookie more personal.
-> connect-mongo . store session in mongo
+> connect-mongo . store session in mongo    
+> axios.  more request   
