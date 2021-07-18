@@ -10,7 +10,11 @@
 
 ## 방향
 
-MongoDB를 활용해보고 passport를 사용해보려고 함.
+MongoDB를 활용.      
+=> model.schema 구성자체가 NoSQL로 표현했을 때 좀 더 깔끔하게 표현가능하다고 생각했다.
+모든 스키마에서 key:value 형태로 떨어지는 구조가 더 어울린다고 생각함.     
+ 
+passport를 사용해보려고 함.
 Webpack과 babel을 사용해보고자함.
 
 
